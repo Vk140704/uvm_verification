@@ -7,7 +7,7 @@ import uvm_pkg::*;
 `include "sequencer.sv"
 `include "driver.sv"
 `include "monitor.sv"
-`include "agent.sv"
+`include "Agent.sv"
 `include "scoreboard.sv"
 `include "environment.sv"
 `include "test.sv"
@@ -34,7 +34,7 @@ module top;
     $dumpfile("HA_UVM.vcd");
     $dumpvars;
     
-    #100;
+    #200;
     
     $finish;
     
