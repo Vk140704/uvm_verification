@@ -1,5 +1,3 @@
-
-
 class HA_seq_item extends uvm_sequence_item;
   `uvm_object_utils(HA_seq_item)     //Utility
   rand bit [3:0]a;
